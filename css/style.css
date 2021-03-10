@@ -1,0 +1,95 @@
+/* Intestazione Generali della pagina */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(185, 20, 80);
+}
+
+input{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+label{
+  color: rgb(185, 20, 80);
+  font-weight: bold;
+  font-size: 22px;
+}
+
+select{
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+
+/* Menu */
+
+.centratura{
+  text-align: center;
+}
+
+
+/* Calcola il prezzo del tuo Biglietto */
+
+.center{
+  text-align: center;
+  color: white;
+  margin: 25px 0;
+  font-size: 50px;
+}
+
+.conteiner1{
+  width: 70%;
+  margin: 0 15%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.contenitore-flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Il tuo Biglietto */
+
+.conteiner2{
+  width: 70%;
+  margin: 0 15%;
+  background-color: white;
+}
+
+.margin-center{
+  padding: 25px;
+}
+
+.bordo{
+  border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.contenitore-flex2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.padding2{
+  margin: 0 10px 0 0;
+}
+
+.flex-figlio{
+  flex-basis: 15%;
+  text-align: center;
+}
+
+.padding-fix{
+  padding: 25px;
+}
+
+.margin-fix{
+  margin-top: 50px;
+}

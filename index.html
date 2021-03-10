@@ -2,20 +2,132 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <style>
+    <title>Biglietto Treno</title>
+    <link rel="stylesheet" href="css/style.css">
 
-      .contenitore{
-        text-align: center;
-      }
-
-    </style>
   </head>
   <body>
 
-    <script>
+    <main>
 
-    </script>
+      <!-- Calcola il prezzo del tuo Biglietto -->
+      <section>
+        <h1 class="center">Calcola il prezzo del tuo Biglietto</h1>
 
+        <div class="conteiner1">
+          <div class="padding-fix">
+            <div class="contenitore-flex">
+
+              <!-- Il Nome-Cognome -->
+              <div class="centratura">
+                <label for="name">Nome e Cognome</label>
+                <div>
+                  <input  id="name" type="text" name="name" value="">
+                </div>
+              </div>
+
+              <!-- Km da percorrere -->
+              <div class="centratura">
+                <label for="distance">Km da percorrere</label>
+                <div>
+                  <input id="distance" type="number" name="distance">
+                </div>
+              </div>
+
+              <!-- Fascia d'età -->
+              <div class="centratura">
+                <label for="era">Fascia d'età</label>
+                <div>
+                  <select id="eta" name="eta">
+                    <option selected value="">seleziona un'opzione</option>
+                    <option value="1">minorenne</option>
+                    <option value="2">maggiorenne</option>
+                    <option value="3">over 65</option>
+                  </select>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <div class="actions centratura">
+            <input id="genera" type="button" value="Genera">
+            <input id="annulla" type="button" value="Annulla">
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- Il tuo Biglietto -->
+      <section>
+        <h1 class="center">Il tuo Biglietto</h1>
+
+        <div class="conteiner2">
+          <div class="margin-center">
+            <h1>Dettaglio Passeggeri</h1>
+            <div class="bordo">
+                <div class="padding-fix">
+                  <div class="contenitore-flex">
+
+                    <!-- Informazioni del biglietto -->
+                    <div class="flex-figlio">
+                      <h2>Nome Passeggero</h2>
+                    </div>
+
+                    <div class="flex-figlio">
+                      <h2>Offerta</h2>
+                    </div>
+
+                    <div class="flex-figlio">
+                      <h2>Carrozza</h2>
+                    </div>
+
+                    <div class="flex-figlio">
+                      <h2>Codice CP</h2>
+                    </div>
+
+                    <div class="flex-figlio">
+                      <h2>Costo biglietto</h2>
+                    </div>
+
+                  </div>
+                  <!-- Risultati del genera -->
+                  <div class="contenitore-flex margin-fix">
+
+                    <div class="flex-figlio">
+                      <h2>Pippo</h2>
+                    </div>
+
+                    <div class="flex-figlio">
+                      <h2>Sconto</h2>
+                      <p id="costo-totale"></p>
+                    </div>
+
+                    <div class="flex-figlio">
+                      <p id="costo-totale"></p>
+                    </div>
+
+                    <div class="flex-figlio">
+                      <p id="costo-totale"></p>
+                    </div>
+
+                    <div class="flex-figlio">
+                      <p id="costo-totale"></p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
