@@ -34,6 +34,27 @@ select{
   text-align: center;
 }
 
+.border-radius{
+  border-radius: 5px;
+  border: 1px solid rgb(185, 20, 80);
+}
+
+#genera{
+  padding: 5px;
+  margin-right: 15px;
+  border: 2px solid;
+}
+
+#annulla{
+  padding: 5px;
+  border: 2px solid;
+}
+
+#genera:hover, #annulla:hover{
+  border-color: rgb(185, 20, 80);
+}
+
+
 
 /* Calcola il prezzo del tuo Biglietto */
 
@@ -92,4 +113,8 @@ select{
 
 .margin-fix{
   margin-top: 50px;
+}
+
+.flex-figlio p{
+  font-size: 20px;
 }

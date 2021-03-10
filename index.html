@@ -22,7 +22,7 @@
               <div class="centratura">
                 <label for="name">Nome e Cognome</label>
                 <div>
-                  <input  id="name" type="text" name="name" value="">
+                  <input class="border-radius" id="name" type="text" name="name" value="">
                 </div>
               </div>
 
@@ -30,7 +30,7 @@
               <div class="centratura">
                 <label for="distance">Km da percorrere</label>
                 <div>
-                  <input id="distance" type="number" name="distance">
+                  <input class="border-radius" id="distance" type="number" name="distance">
                 </div>
               </div>
 
@@ -38,7 +38,7 @@
               <div class="centratura">
                 <label for="era">Fascia d'età</label>
                 <div>
-                  <select id="eta" name="eta">
+                  <select class="border-radius" id="eta" name="eta">
                     <option selected value="">seleziona un'opzione</option>
                     <option value="1">minorenne</option>
                     <option value="2">maggiorenne</option>
@@ -52,8 +52,8 @@
 
 
           <div class="actions centratura">
-            <input id="genera" type="button" value="Genera">
-            <input id="annulla" type="button" value="Annulla">
+            <input class="border-radius" id="genera" type="button" value="Genera">
+            <input class="border-radius" id="annulla" type="button" value="Annulla">
           </div>
 
         </div>
@@ -93,24 +93,24 @@
                     </div>
 
                   </div>
+
                   <!-- Risultati del genera -->
                   <div class="contenitore-flex margin-fix">
 
                     <div class="flex-figlio">
-                      <h2>Pippo</h2>
+                      <h2 id="nome-passeggero"></h2>
                     </div>
 
                     <div class="flex-figlio">
-                      <h2>Sconto</h2>
-                      <p id="costo-totale"></p>
+                      <p id="eta-sconto"></p>
                     </div>
 
                     <div class="flex-figlio">
-                      <p id="costo-totale"></p>
+                      <p id="carrozza-num"></p>
                     </div>
 
                     <div class="flex-figlio">
-                      <p id="costo-totale"></p>
+                      <p id="codice-cp"></p>
                     </div>
 
                     <div class="flex-figlio">
